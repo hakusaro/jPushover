@@ -8,7 +8,7 @@ jPushover is perfect for small projects that just need one or two things that do
 
 ## Usage
 
-Simply add Pushover.jar to your project's build path, and instantiate a new Pushover object. It's worth nothing that you first need a Pushover application key, free from [Pushover's website](https://pushover.net/apps).
+Simply add [Pushover.jar](https://github.com/nicatronTg/jPushover/blob/master/Pushover.jar) to your project's build path, and instantiate a new Pushover object. It's worth nothing that you first need a Pushover application key, free from [Pushover's website](https://pushover.net/apps).
 
 
 ````
@@ -39,6 +39,7 @@ public String sendMessageHighPriority(String message, String title, String url, 
 ````
 
 ## Limitations
+
 * jPushover does not support sending sounds to devices.
 * jPushover does not support sending alternative timestamps to devices.
 * jPushover does no sanity checking on the lengths of messages. The Pushover API docs set clear limits (255 characters for a message, 30 for a title, and so on), however, so this should be taken care of prior to implementation.
